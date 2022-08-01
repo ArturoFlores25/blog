@@ -33,7 +33,8 @@ header .header-icons-container{
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: var(--main--color);
+    background: linear-gradient(112deg, rgba(108,13,191,1) 49%, rgba(30,4,133,1) 100%, rgba(25,5,5,1) 100%);
+    ;
 }
 header .header-icons-container .icons{
     width: 300px;
@@ -47,6 +48,7 @@ header .header-icons-container .icons{
 }
 header .icons span{
     color: white;
+    font-size: 28px;
 }
 nav{
     display: grid;
