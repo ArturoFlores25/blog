@@ -1,3 +1,33 @@
+@media (max-width: 425px){
+    .blogs-posts-container .post-container{
+        max-width: 95%;
+    }
+}
+@media (min-width: 320px){
+    header nav .menu {
+        display: block;
+        width: 50px;
+    }
+}
+@media (min-width: 600px){
+    header nav .menu {
+        display: none;
+    }
+    nav .profile-link{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 12px;
+    }
+    nav .profile-link a{
+        color: white;
+        border-bottom: 1px solid white;
+        margin: 0 16px;
+    }
+    .blogs-posts-container .post-container{
+        max-width: 95%;
+    }
+}
 @media (max-width: 900px) {
     .blogs-main-new{
         grid-template-columns: 1fr;
@@ -19,10 +49,5 @@
     }
     .profile-main-container .profile-container{
         display: block;
-    }
-}
-@media (max-width: 600px){
-    .blogs-posts-container .post-container{
-        max-width: 95%;
     }
 }

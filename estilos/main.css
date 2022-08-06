@@ -2,7 +2,7 @@
 :root{
     --main--color: #5503b9;
 }
-body{
+*{
     font-family: 'Roboto mono';
     margin: 0;
     padding: 0;
@@ -25,16 +25,37 @@ a {
 }
 header{
     width: 100%;
-    height: 140px;
+    height: 60px;
     display: flex;
+    align-items: center;
+    background: linear-gradient(112deg, rgba(108,13,191,1) 49%, rgba(30,4,133,1) 100%, rgba(25,5,5,1) 100%);
 }
-header .header-icons-container{
+header .figure-logo-container img{
+    width: 132px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+}
+header nav .menu {
+    display: none;
+    width: 50px;
+}
+nav .menu a span{
+    color: white;
+    font-size: 28px;
+}
+nav .profile-link{
+    display: none;
+}
+/* header .header-icons-container{
     width: 100%;
     height: 50px;
     display: grid;
-    background: linear-gradient(112deg, rgba(108,13,191,1) 49%, rgba(30,4,133,1) 100%, rgba(25,5,5,1) 100%);
-    ;
-}
+} */
+/*
 header .header-icons-container .icons{
     width: 300px;
     height: auto;
@@ -56,20 +77,6 @@ nav{
 }
 nav .nav-logo-container{
     margin-left: 50px;
-}
-nav .nav-logo-container img{
-    width: 220px;
-    margin-top: 10px;
-}
-nav .profile-link{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 50px;
-}
-nav .profile-link a{
-    color: black;
-    border-bottom: 1px solid black;
 }
 .home-main{
     height: 100%;
@@ -247,4 +254,4 @@ main .profile-main-container{
     border-radius: 2px;
     font-size: 12px;
     padding-top: 8px;
-}
+} */
