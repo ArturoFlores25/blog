@@ -24,6 +24,9 @@
         border-bottom: 1px solid white;
         margin: 0 16px;
     }
+    .home-main-text{
+        font-size: 30px;
+    }
     .blogs-posts-container .post-container{
         max-width: 95%;
     }
