@@ -91,42 +91,9 @@ nav .profile-link{
     font-size: 18px;
     color: #cdd2da;
 }
-    /* 
-    header .header-icons-container{
-        width: 100%;
-        height: 50px;
-        display: grid;
-    } */
-    /*
-    header .header-icons-container .icons{
-        width: 300px;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        justify-self: end;
-        justify-items: flex-end;
-        align-items: center;
-        margin-right: 50px;
-    }
-    header .icons span{
-        color: white;
-        font-size: 28px;
-    }
-    nav{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        height: 90px;
-    }
-    nav .nav-logo-container{
-        margin-left: 50px;
-    }
 .blogs-main{
     display: grid;
 
-}
-.blogs-news-container{
-    background-color: #e6e9ed;
-    padding: 0 50px 40px;
 }
 .blogs-main-new{
     display: grid;
@@ -180,6 +147,38 @@ footer{
 footer p{
     color: white;
     margin-top: 30px;
+}
+/* 
+header .header-icons-container{
+    width: 100%;
+    height: 50px;
+    display: grid;
+}
+header .header-icons-container .icons{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-self: end;
+    justify-items: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+header .icons span{
+    color: white;
+    font-size: 28px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+.blogs-news-container{
+background-color: #e6e9ed;
+padding: 0 50px 40px;
 }
 .blogpost-img-container{
     padding: 0 50px 40px;
@@ -255,4 +254,5 @@ main .profile-main-container{
     border-radius: 2px;
     font-size: 12px;
     padding-top: 8px;
+
 } */
