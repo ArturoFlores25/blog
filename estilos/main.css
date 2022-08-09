@@ -98,12 +98,13 @@ nav .profile-link{
 }
 .blogs-news-container{
     background-color: var(--secundary-color);
+    padding: 0 50px 40px;
 }
 .blogs-main-new{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
-    padding: 16px 0 16px 0;
+    /* padding: 16px 0 16px 0; */
 }
 .blogs-main-new h2{
     padding-bottom: 16px;
@@ -124,7 +125,7 @@ nav .profile-link{
     padding: 0 50px 50px;
 }
 .grid-posts-container{
-
+    
 }
 .blogs-posts-container h3{
     border-bottom: 1px solid #cdd2da;
