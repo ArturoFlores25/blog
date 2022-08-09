@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500;700&family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap');
 :root{
     --main--color: #5503b9;
+    --secundary-color: #e6ccf4;
 }
 *{
     font-family: 'Roboto mono';
@@ -95,16 +96,23 @@ nav .profile-link{
     display: grid;
 
 }
+.blogs-news-container{
+    background-color: var(--secundary-color);
+}
 .blogs-main-new{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
+    padding: 16px 0 16px 0;
+}
+.blogs-main-new h2{
+    padding-bottom: 16px;
 }
 .blogs-news-img-container{
     grid-column: 1;
 }
 .blogs-news-img-container img{
-    width: 85%;
+    width: 90%;
 }
 .blogs-news-info-container{
     grid-column: 2;
@@ -113,7 +121,10 @@ nav .profile-link{
     margin-bottom: 35px;
 }
 .blogs-post-container{
-    padding: 0 50px 40px;
+    padding: 0 50px 50px;
+}
+.grid-posts-container{
+
 }
 .blogs-posts-container h3{
     border-bottom: 1px solid #cdd2da;
@@ -175,10 +186,6 @@ nav{
 }
 nav .nav-logo-container{
     margin-left: 50px;
-}
-.blogs-news-container{
-background-color: #e6e9ed;
-padding: 0 50px 40px;
 }
 .blogpost-img-container{
     padding: 0 50px 40px;
