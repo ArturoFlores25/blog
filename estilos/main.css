@@ -97,7 +97,7 @@ nav .profile-link{
 }
 .blogs-news-container{
     background-color: var(--secundary-color);
-    padding: 0 16px 28px;
+    padding: 0 16px 28px 16px;
 }
 .blogs-main-new{
     display: grid;
@@ -126,13 +126,13 @@ nav .profile-link{
     margin-bottom: 24px;
 }
 .blogs-posts-container{
-    padding: 0px 40px 40px 0px;
+    padding: 0px 20px 40px 20px;
 }
-/*
 .grid-posts-container{
+    max-width: 980px;
+    margin: auto;
 }
-*/
-.blogs-posts-container .grid-container h3{
+.blogs-posts-container .grid-posts-container h3{
     border-bottom: 1px solid #cdd2da;
     margin: 8px 0 12px 0;
     padding: 8px 0 12px 0;
