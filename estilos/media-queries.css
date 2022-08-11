@@ -1,12 +1,13 @@
-@media (max-width: 425px){
-    .blogs-posts-container .post-container{
-        max-width: 95%;
-    }
-}
 @media (min-width: 320px){
     header nav .menu {
         display: block;
         width: 50px;
+    }
+}
+
+@media (max-width: 425px){
+    .blogs-posts-container .post-container{
+        max-width: 95%;
     }
 }
 @media (min-width: 600px){
@@ -30,6 +31,17 @@
     .blogs-posts-container{
         max-width: 95%;
     }
+}
+
+@media (max-width: 600px){
+    .blogs-news-info-container h2{
+        font-size: 20px;
+    }
+    .blogs-news-info-container p{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
 }
 @media (max-width: 900px) {
     .blogs-main-new{
