@@ -76,9 +76,6 @@
         grid-column: 1;
         grid-row: 3;
     }
-    /* .blogs-posts-container .post-container{
-        max-width: 45%;
-    } */
     .projects-main-container{
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 2fr;
