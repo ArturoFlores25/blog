@@ -213,7 +213,6 @@ nav .nav-logo-container{
 .blogpost-img-container img{
     width: 100%;
 }
-/*
 .blogpost-main-container{
     padding: 0 50px 40px;
 }
@@ -282,5 +281,6 @@ main .profile-main-container{
     border-radius: 2px;
     font-size: 12px;
     padding-top: 8px;
-
-} */
+    
+}
+/*
